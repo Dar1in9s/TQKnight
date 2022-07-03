@@ -1,0 +1,7 @@
+pyqt5
+qscintilla
+pycryptodome
+validators
+sqlalchemy
+binaryornot
+requests

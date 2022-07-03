@@ -1,0 +1,14 @@
+msf6 exploit(multi/handler) > show options
+
+Module options (exploit/multi/handler):
+
+   Name  Current Setting  Required  Description
+   ----  ---------------  --------  -----------
+
+
+Payload options (php/reverse_php):
+
+   Name   Current Setting  Required  Description
+   ----   ---------------  --------  -----------
+   LHOST  __IP__  yes       The listen address (an interface may be specified)
+   LPORT  __PORT__  yes       The listen port

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1292</width>
+    <height>727</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TQKnight</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QWidget" name="widget_main" native="true">
+      <layout class="QHBoxLayout" name="layout_main"/>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1292</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_file">
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <addaction name="action_import"/>
+    <addaction name="action_export"/>
+    <addaction name="separator"/>
+    <addaction name="action_about"/>
+    <addaction name="separator"/>
+    <addaction name="action_exit"/>
+   </widget>
+   <widget class="QMenu" name="menu_settings">
+    <property name="title">
+     <string>设置</string>
+    </property>
+    <addaction name="action_proxy"/>
+   </widget>
+   <widget class="QMenu" name="menu_tools">
+    <property name="title">
+     <string>工具</string>
+    </property>
+    <addaction name="action_genwebshell"/>
+   </widget>
+   <addaction name="menu_file"/>
+   <addaction name="menu_settings"/>
+   <addaction name="menu_tools"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action_proxy">
+   <property name="icon">
+    <iconset resource="../qrc/img.qrc">
+     <normaloff>:/proxy/proxy.png</normaloff>:/proxy/proxy.png</iconset>
+   </property>
+   <property name="text">
+    <string>代理设置</string>
+   </property>
+  </action>
+  <action name="action_http">
+   <property name="text">
+    <string>http头设置</string>
+   </property>
+  </action>
+  <action name="action_genwebshell">
+   <property name="text">
+    <string>webshell生成</string>
+   </property>
+  </action>
+  <action name="action_import">
+   <property name="icon">
+    <iconset resource="../qrc/img.qrc">
+     <normaloff>:/other/import</normaloff>:/other/import</iconset>
+   </property>
+   <property name="text">
+    <string>导入数据</string>
+   </property>
+  </action>
+  <action name="action_export">
+   <property name="icon">
+    <iconset resource="../qrc/img.qrc">
+     <normaloff>:/other/export</normaloff>:/other/export</iconset>
+   </property>
+   <property name="text">
+    <string>导出数据</string>
+   </property>
+  </action>
+  <action name="action_group">
+   <property name="text">
+    <string>分组设置</string>
+   </property>
+  </action>
+  <action name="action_exportsetting">
+   <property name="text">
+    <string>导出配置数据</string>
+   </property>
+  </action>
+  <action name="action_about">
+   <property name="text">
+    <string>关于</string>
+   </property>
+  </action>
+  <action name="actionabout">
+   <property name="text">
+    <string>about</string>
+   </property>
+  </action>
+  <action name="action_exit">
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="../qrc/img.qrc"/>
+ </resources>
+ <connections/>
+</ui>

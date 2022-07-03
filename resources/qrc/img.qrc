@@ -1,0 +1,45 @@
+<RCC>
+  <qresource prefix="file">
+    <file alias="folder.png">../images/fileManage/folder.png</file>
+    <file alias="file.png">../images/fileManage/file.png</file>
+    <file alias="drive.png">../images/fileManage/drive.png</file>
+  </qresource>
+  <qresource prefix="proxy">
+    <file alias="proxy.png">../images/proxy/proxy.png</file>
+    <file alias="ok.png">../images/proxy/ok.png</file>
+    <file alias="cancel.png">../images/proxy/cancel.png</file>
+  </qresource>
+  <qresource prefix="database">
+    <file alias="clear.png">../images/database/clear.png</file>
+    <file alias="execute.png">../images/database/execute.png</file>
+    <file alias="save.png">../images/database/save.png</file>
+    <file alias="database.png">../images/database/database.png</file>
+    <file alias="table.png">../images/database/table.png</file>
+  </qresource>
+  <qresource prefix="webshell">
+    <file alias="connect.png">../images/webshell/connect.png</file>
+    <file alias="closed.png">../images/webshell/closed.png</file>
+    <file alias="headerAdd.png">../images/webshell/headerAdd.png</file>
+    <file alias="opened.png">../images/webshell/opend.png</file>
+    <file alias="headerDel.png">../images/webshell/headerDel.png</file>
+    <file alias="refresh.png">../images/webshell/refresh.png</file>
+    <file alias="save.png">../images/webshell/save.png</file>
+    <file alias="test.png">../images/webshell/test.png</file>
+    <file alias="groupDel.png">../images/webshell/groupDel.png</file>
+    <file alias="groupRename.png">../images/webshell/groupRename.png</file>
+    <file alias="webshell.png">../images/webshell/webshell.png</file>
+    <file alias="group.png">../images/webshell/group.png</file>
+    <file alias="groupAdd.png">../images/webshell/groupAdd.png</file>
+    <file alias="drop-down.png">../images/webshell/drop-down.png</file>
+  </qresource>
+  <qresource prefix="other">
+    <file alias="plug.png">../images/other/plug.png</file>
+    <file alias="intranet.png">../images/other/intranet.png</file>
+    <file alias="database.png">../images/other/databaseManage.png</file>
+    <file alias="shell.png">../images/other/shell.png</file>
+    <file alias="fileManage.png">../images/other/fileManage.png</file>
+    <file alias="info.png">../images/other/info.png</file>
+    <file alias="export">../images/other/export.png</file>
+    <file alias="import">../images/other/import.png</file>
+  </qresource>
+</RCC>

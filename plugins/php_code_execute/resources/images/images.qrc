@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="img">
+    <file>clear.png</file>
+    <file>execute.png</file>
+  </qresource>
+</RCC>

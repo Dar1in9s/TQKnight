@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WebshellWindow</class>
+ <widget class="QWidget" name="WebshellWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1347</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TQKnight</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>20</width>
+       <height>20</height>
+      </size>
+     </property>
+     <widget class="QWidget" name="tab_info">
+      <attribute name="icon">
+       <iconset resource="../../qrc/img.qrc">
+        <normaloff>:/other/info.png</normaloff>:/other/info.png</iconset>
+      </attribute>
+      <attribute name="title">
+       <string>Webshell信息</string>
+      </attribute>
+      <layout class="QHBoxLayout" name="layout_info">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_file">
+      <attribute name="icon">
+       <iconset resource="../../qrc/img.qrc">
+        <normaloff>:/other/fileManage.png</normaloff>:/other/fileManage.png</iconset>
+      </attribute>
+      <attribute name="title">
+       <string>文件管理</string>
+      </attribute>
+      <layout class="QHBoxLayout" name="layout_file">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_shell">
+      <attribute name="icon">
+       <iconset resource="../../qrc/img.qrc">
+        <normaloff>:/other/shell.png</normaloff>:/other/shell.png</iconset>
+      </attribute>
+      <attribute name="title">
+       <string>虚拟终端</string>
+      </attribute>
+      <layout class="QHBoxLayout" name="layout_shell">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_dbs">
+      <attribute name="icon">
+       <iconset resource="../../qrc/img.qrc">
+        <normaloff>:/other/database.png</normaloff>:/other/database.png</iconset>
+      </attribute>
+      <attribute name="title">
+       <string>数据库管理</string>
+      </attribute>
+      <layout class="QHBoxLayout" name="layout_database">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_proxy">
+      <attribute name="icon">
+       <iconset resource="../../qrc/img.qrc">
+        <normaloff>:/other/intranet.png</normaloff>:/other/intranet.png</iconset>
+      </attribute>
+      <attribute name="title">
+       <string>内网穿透</string>
+      </attribute>
+      <layout class="QHBoxLayout" name="layout_IntranetProxy">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_plugin">
+      <attribute name="icon">
+       <iconset resource="../../qrc/img.qrc">
+        <normaloff>:/other/plug.png</normaloff>:/other/plug.png</iconset>
+      </attribute>
+      <attribute name="title">
+       <string>插件</string>
+      </attribute>
+      <layout class="QHBoxLayout" name="layout_plugin">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../../qrc/img.qrc"/>
+ </resources>
+ <connections/>
+</ui>

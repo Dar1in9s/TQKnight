@@ -1,0 +1,15 @@
+QListWidget{
+    background-color: #F9F9F9;
+}
+QListWidget::item{
+    height: 40px;
+}
+
+QPushButton#menu{
+padding: 5px;
+   font-size: 15px;
+}
+QPushButton#menu:checked{
+    border: none;
+    background-color: #7fbbfa;
+}

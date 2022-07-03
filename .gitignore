@@ -1,0 +1,7 @@
+.idea/
+__pycache__/
+WebshellServer/
+*.py[cod]
+*$py.class
+test.py
+*.db
