@@ -41,5 +41,6 @@
     <file alias="info.png">../images/other/info.png</file>
     <file alias="export">../images/other/export.png</file>
     <file alias="import">../images/other/import.png</file>
+    <file alias="logo.png">../images/other/logo.png</file>
   </qresource>
 </RCC>

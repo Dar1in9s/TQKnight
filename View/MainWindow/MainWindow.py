@@ -55,11 +55,6 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.action_import.triggered.connect(self.actionImportClicked)
 
     def setQSS(self):
-        QFontDatabase.addApplicationFont(":/font/roboto.ttf")
-        QFontDatabase.addApplicationFont("resources/fonts/Noto_Sans_SC/NotoSansSC-Regular.otf")
-        QFontDatabase.addApplicationFont("resources/fonts/SourceHanSansHWHC-VF.otf")
-        QFontDatabase.addApplicationFont("resources/fonts/FMBChina.ttf")
-        QFontDatabase.addApplicationFont("resources/fonts/SourceHanSansCN-Regular.otf")
         # 左边
         self.webshellGroup.btn_renamegroup.setObjectName("group")
         self.webshellGroup.btn_deletegroup.setObjectName("group")

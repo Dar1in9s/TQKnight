@@ -1,5 +1,6 @@
 from PyQt5.QtWidgets import QApplication
 from PyQt5.QtCore import QObject
+from PyQt5.QtGui import QIcon
 from Controller import MainWindowController, ProxyWindowController, WebshellWindowController
 import View.qrc.img_rc
 import sys
@@ -9,6 +10,7 @@ class MainController(QObject):
     def __init__(self, *args, **kwargs):
         super(MainController, self).__init__(*args, **kwargs)
         self.app = QApplication(sys.argv)
+        self.app.setWindowIcon(QIcon(":/other/logo.png"))
         self.mainWindowController = MainWindowController()
         self.proxyWindowController = ProxyWindowController()
         self.webshellWindowControllerList = {}
