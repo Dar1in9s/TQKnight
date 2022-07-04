@@ -125,7 +125,7 @@ class SQL:
             session.flush()
             _id = model.id
             session.close()
-            return _id
+            return _id is not False
         except Exception as e:
             print(e)
             return False
