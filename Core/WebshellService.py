@@ -4,6 +4,7 @@ from Crypto.Cipher import PKCS1_OAEP, AES
 from Crypto.Hash import MD5
 from PyQt5.QtCore import QObject, pyqtSignal, QUrl, QByteArray, QFile, QIODevice, QFileInfo
 from PyQt5.QtNetwork import QNetworkAccessManager, QNetworkProxy, QNetworkRequest, QNetworkReply
+from config import Config
 import base64
 import json
 
@@ -525,6 +526,8 @@ class WebshellService(QObject):
 
     def doPOST(self, data, timeout=3000):
         request = QNetworkRequest(QUrl(self.webshell.url))
+        for name, value in Config.defaultHeaders.items():
+            request.setRawHeader(QByteArray(name.encode()), QByteArray(value.encode()))
         for header in json.loads(self.webshell.httpHeader):
             request.setRawHeader(QByteArray(header["name"].encode()), QByteArray(header["value"].encode()))
         if self.proxy and self.proxy.id:
